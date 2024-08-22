@@ -1,0 +1,24 @@
+Smart Greenhouse System
+|
+|-- User Interface (GreenhouseUI)
+|   |-- Greenhouse Visualization
+|   |-- Sensor Readings Display
+|   |-- Control Buttons
+|   |-- Alert Popups
+|
+|-- Greenhouse Sections (GreenhouseSection)
+|   |-- Sensor Data
+|   |-- Crop Settings
+|
+|-- Crop Management (CropSettings)
+|   |-- Threshold Definitions
+|   |-- Condition Checking
+|
+|-- Configuration (config.json)
+|   |-- Crop Thresholds
+|   |-- UI Settings
+|   |-- Image Definitions
+|
+|-- External Libraries
+    |-- Tkinter (GUI)
+    |-- Pillow (Image Processing)
