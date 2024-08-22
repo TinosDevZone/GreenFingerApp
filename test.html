@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Greenhouse System</title>
+</head>
+<body>
+    <h1>Smart Greenhouse System</h1>
+    <div id="sensor_data">
+        <p>Temperature: <span id="temperature">17.4</span></p>
+        <p>Humidity: <span id="humidity">40.0</span></p>
+        <p>Moisture: <span id="moisture">47.4</span></p>
+        <p>Light Intensity: <span id="light_intensity">45.0</span></p>
+    </div>
+    <button onclick="updateData()">Update Sensor Data</button>
+    <script>
+        function updateData() {
+            // Placeholder for updating data
+            window.pywebview.api.update_sensor_data();
+        }
+    </script>
+</body>
+</html>

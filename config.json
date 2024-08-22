@@ -1,0 +1,63 @@
+{
+  "initial_sensor_data": {
+    "temperature": 17.4,
+    "humidity": 40.0,
+    "moisture": 47.4,
+    "light_intensity": 45.0,
+    "crop_growth": 1.3
+  },
+  "crop_thresholds": {
+    "Cucumber": {
+      "temperature": {"max": 29, "min": 24},
+      "humidity": {"max": 80, "min": 60},
+      "moisture": {"max": 80, "min": 70},
+      "light_intensity": {"max": 25000, "min": 15000}
+    },
+    "Squash": {
+      "temperature": {"max": 29, "min": 24},
+      "humidity": {"max": 70, "min": 50},
+      "moisture": {"max": 75, "min": 60},
+      "light_intensity": {"max": 25000, "min": 15000}
+    },
+    "Tomato": {
+      "temperature": {"max": 27, "min": 21},
+      "humidity": {"max": 70, "min": 60},
+      "moisture": {"max": 80, "min": 60},
+      "light_intensity": {"max": 40000, "min": 20000}
+    }
+  },
+  "ui_settings": {
+    "window_size": {
+      "width": 800,
+      "height": 600
+    },
+    "background_color": "#D0E9F5",
+    "canvas_size": {
+      "width": 500,
+      "height": 300
+    },
+    "canvas_color": "#B2C7DA",
+    "greenhouse_color": "#D3D3D3"
+  },
+  "image_files": {
+    "light": "light.png",
+    "heater": "heater.png",
+    "water_pump": "water_pump.png",
+    "window": "window.png",
+    "fan": "fan.png",
+    "temp_sensor": "temp_sensor.png"
+  },
+  "image_positions": {
+    "light": [365, 35],
+    "heater": [325, 115],
+    "water_pump": [175, 225],
+    "window": [385, 65],
+    "fan": [150, 120],
+    "temp_sensor": [245, 175]
+  },
+  "sensor_update_ranges": {
+    "temperature": [0.5, 1.5],
+    "light_intensity": [5.0, 10.0],
+    "moisture": [2.0, 5.0]
+  }
+}
