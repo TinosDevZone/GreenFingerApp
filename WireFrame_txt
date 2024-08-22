@@ -1,0 +1,30 @@
++-------------------------------------+
+|        Smart Greenhouse System      |
++-------------------------------------+
+|  +------+ +------+ +------+         |
+|  |Sec 1 | |Sec 2 | |Sec 3 |         |
+|  |      | |      | |      |         |
+|  |Cucum.| |Tomato| |Squash|         |
+|  +------+ +------+ +------+         |
+|                                     |
+| [Sensor Readings for Each Section]  |
+|                                     |
+| [Control Buttons for Each Section]  |
+|  Inc Temp  Dec Temp                 |
+|  Inc Moist Dec Moist                |
+|                                     |
+|           Current Time              |
++-------------------------------------+
+
+Alert Popup:
++----------------------------+
+|    Section X - Alert       |
+|                            |
+| Temperature too high!      |
+| Current: 30°C, Max: 29°C   |
+|                            |
+| [Decrease Temperature]     |
++----------------------------+
+
+
+
